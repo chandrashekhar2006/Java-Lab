@@ -3,7 +3,7 @@ class  A
 	int i,j;
 	A(int a,int b){
 		i=a;
-		b=b;
+		j=b;
 	}
 	void show(){
 		System.out.println("i:"+i);
@@ -28,4 +28,5 @@ class Override
 		B subOb=new B(10,20,20);
 		subOb.show();
 	}
+
 }
